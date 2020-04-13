@@ -1,0 +1,10 @@
+.AppBar{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: goldenrod;
+    width: 100%;
+    color: black;
+}

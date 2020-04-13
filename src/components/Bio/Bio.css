@@ -1,0 +1,9 @@
+.Bio{
+    display: flex; 
+    width: 80%; 
+    align-items: center;
+}
+
+.Paragraph{
+    padding-left: 100px;
+}

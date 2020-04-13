@@ -1,7 +1,8 @@
 import React from 'react';
 import './App.css';
-import Sizes from './components/Sizes';
-import Bio from './components/Bio';
+import Sizes from './components/Sizes/Sizes';
+import Bio from './components/Bio/Bio';
+import AppBar from './components/AppBar/AppBar';
 
 function App() {
 
@@ -14,9 +15,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1 style={{float: "left"}}>My Story</h1>
+        <AppBar/>
+        <h2 style={{float: "left"}}>My Story</h2>
         <Bio/>
-        <h1 style={{paddingTop: "50px"}}>Sizes</h1>
+        <h2 style={{paddingTop: "20px"}}>Jar Sizes</h2>
           <div> 
             <Sizes name={sizes[0].name} price={sizes[0].price}/>
             <Sizes name={sizes[1].name} price={sizes[1].price}/>

@@ -1,0 +1,15 @@
+.Sizes{
+    border: 3px solid goldenrod;
+    border-radius: 25px;
+    box-shadow: 2px 2px black;
+    background-color: black;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 300px;
+    height: 200px;
+    float: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
