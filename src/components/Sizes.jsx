@@ -9,7 +9,7 @@ const style = {
 
 const Size = () => {
     const sizes = [
-        {name: "8 oz", price: "$10"},
+        {name: "8 kljlkfj;lksjdf;lsd", price: "$10"},
         {name: "16 oz", price: "$18"},
         {name: "30 oz", price: "$30"},
     ];
